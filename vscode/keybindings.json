@@ -1,6 +1,5 @@
 // Place your key bindings in this file to overwrite the defaults
-[
-  {
+[{
     "key": "cmd+right",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
@@ -402,5 +401,31 @@
   {
     "key": "ctrl+r",
     "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+1",
+    "command": "workbench.action.tasks.runTask",
+    "args": "RestartNewChain"
+  }, {
+    "key": "ctrl+shift+alt+cmd+2",
+    "command": "workbench.action.tasks.runTask",
+    "args": "RestartOldChain"
+  }, {
+    "key": "ctrl+shift+alt+cmd+3",
+    "command": "workbench.action.tasks.runTask",
+    "args": "StopChain"
+  }, {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.tasks.runTask",
+    "args": "DeployContract"
+  }, {
+    "key": "ctrl+shift+c",
+    "command": "workbench.action.tasks.runTask",
+    "args": "CompileContract"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.tasks.runTask",
+    "args": "jesttest"
   }
 ]
