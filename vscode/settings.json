@@ -25,7 +25,7 @@
   "workbench.settings.editor": "json",
   "workbench.editor.showIcons": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "workbench.statusBar.visible": false, // formatting only supports LF line endings
+  "workbench.statusBar.visible": true, // formatting only supports LF line endings
   // Editor
   "editor.formatOnSave": true,
   "editor.renderLineHighlight": "gutter",
@@ -37,7 +37,7 @@
   "editor.scrollBeyondLastLine": false,
   "editor.lineHeight": 26,
   "editor.occurrencesHighlight": false,
-  "editor.multiCursorModifier": "alt",
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.overviewRulerBorder": false,
   "editor.overviewRulerLanes": 0,
   "editor.renderIndentGuides": true,
@@ -283,4 +283,9 @@
     }
   ],
   "java.configuration.checkProjectSettingsExclusions": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "atomKeymap.promptV3Features": true,
+  "editor.formatOnPaste": true,
+  "diffEditor.ignoreTrimWhitespace": false,
 }

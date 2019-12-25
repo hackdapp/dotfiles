@@ -63,15 +63,13 @@
 [github]
     user = nikitavoloboev
 [commit]
-	gpgsign = true
-[gpg]
-	program = /usr/local/MacGPG2/bin/gpg2
+	gpgsign = false
 [http "https://gopkg.in"]
 	followRedirects = true
 [format]
 	pretty = %C(auto)%h - %s%d%n%+b%+N(%G?) %an <%ae> (%C(blue)%ad%C(auto))%n
 [hub]
-	protocol = https
+	protocol = http
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
