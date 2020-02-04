@@ -61,7 +61,7 @@
 	excludesfile = ~/.gitignore_global
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [github]
-    user = nikitavoloboev
+    user = hackdapp
 [commit]
 	gpgsign = false
 [http "https://gopkg.in"]
