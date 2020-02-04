@@ -15,7 +15,7 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'} " Interactive command execution.
 Plug 'tpope/vim-repeat' " Enable repeating supported plugin maps.
 Plug 'tpope/vim-surround' " Quoting/parenthesizing made simple.
 Plug 'junegunn/vim-easy-align' " Simple, easy-to-use alignment.
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } " Fzf search. 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } " Fzf search.
 Plug 'junegunn/fzf.vim' " Fzf search.
 Plug 'wakatime/vim-wakatime' " Automatic time tracking.
 Plug 'haya14busa/incsearch.vim' " Improved incremental searching.

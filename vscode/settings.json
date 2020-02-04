@@ -288,4 +288,5 @@
   "atomKeymap.promptV3Features": true,
   "editor.formatOnPaste": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "[plaintext]": {},
 }

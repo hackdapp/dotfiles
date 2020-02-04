@@ -37,17 +37,16 @@ hs.loadSpoon("ModalMgr")
 if not hspoon_list then
     hspoon_list = {
         "AClock",
-
-        "CircleClock",
-        "ClipShow",
+        -- "CircleClock",
+        -- "ClipShow",
         "CountDown",
-      --  "HCalendar",
-        "HSaria2",
-        "HSearch",
+        -- "HCalendar",
+        -- "HSaria2",
+        -- "HSearch",
         "SpeedMenu",
         "WinWin",
-        "FnMate",
-        "Emojis",
+        "FnMate", --//代替上、下、左、右键以及左、右键。Use Fn + h/l/j/k as arrow keys, y/u/i/o as mouse wheel, ,/. as left/right click.
+        -- "Emojis",
         "Calendar",
         "TimeFlow"
     }
@@ -81,9 +80,12 @@ if not hsapp_list then
     hsapp_list = {
         {key = 'f', name = 'Finder'},
         {key = 's', name = 'Safari'},
-        {key = 't', name = 'iTerm'},
-        {key = 'v', id = 'com.apple.ActivityMonitor'},
+        {key = 'i', name = 'iTerm'},
+        {key = 'm', id = 'com.apple.ActivityMonitor'},
         {key = 'y', id = 'com.apple.systempreferences'},
+        {key = 'd', name = 'Drafts'},
+        {key = 'v', id = 'com.microsoft.VSCode'},
+        {key = 't', name = 'Things3'},
     }
 end
 for _, v in ipairs(hsapp_list) do

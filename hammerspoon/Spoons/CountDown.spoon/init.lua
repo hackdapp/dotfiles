@@ -21,7 +21,7 @@ function obj:init()
     self.canvas = hs.canvas.new({x=0, y=0, w=0, h=0}):show()
     self.canvas:behavior(hs.canvas.windowBehaviors.canJoinAllSpaces)
     self.canvas:level(hs.canvas.windowLevels.status)
-    self.canvas:alpha(0.35)
+    self.canvas:alpha(0.8)
     self.canvas[1] = {
         type = "rectangle",
         action = "fill",
