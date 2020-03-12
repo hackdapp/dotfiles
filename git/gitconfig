@@ -62,14 +62,14 @@
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [github]
     user = hackdapp
-[commit]
-	gpgsign = false
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
 [http "https://gopkg.in"]
 	followRedirects = true
 [format]
 	pretty = %C(auto)%h - %s%d%n%+b%+N(%G?) %an <%ae> (%C(blue)%ad%C(auto))%n
 [hub]
-	protocol = http
+	protocol = https
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
